@@ -28,8 +28,7 @@ app.use(express.static('public'))
  app.set('layout', 'layouts/app')
 
 
-
-
+ //Student Route
  app.use('/student', studentRoute)
 
  app.listen(PORT, ()=>{
